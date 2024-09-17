@@ -30,6 +30,7 @@ public class IntegraMenuPrincipalStep {
     }
     @Step
     public void clickCatalogo() throws AWTException {
+        EsperaImplicita.esperaImplicitaWeb(5);
         while (integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).isDisplayed()) {
             break;
         }
