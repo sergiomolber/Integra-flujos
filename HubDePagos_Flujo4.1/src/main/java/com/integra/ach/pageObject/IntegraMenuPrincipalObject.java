@@ -16,7 +16,7 @@ public class IntegraMenuPrincipalObject extends PageObject {
     By btnModuloTransferencias = By.xpath("//li[@id='PaymentModule']/a/span");
     By btnInstruccionesDistribuidas = By.xpath("//li[@id='DistributedInstructions']/a");
 
-    By btnCatalogos = By.xpath("//span[contains(text(),'Catálogos')]");
+    By btnCatalogos = By.xpath("/html/body/div[3]/div/div[2]/aside/div[2]/div/section/div/ul/li[13]/a/span");
     By btnInscripcionDeCuentas = By.xpath("//span[contains(text(),'Inscripción de Cuentas')]");
     By btnAprobacionDeCuentas = By.xpath("//span[contains(text(),'Aprobación de Cuentas')]");
 
