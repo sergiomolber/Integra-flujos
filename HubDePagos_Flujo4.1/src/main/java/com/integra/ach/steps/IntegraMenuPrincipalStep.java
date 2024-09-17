@@ -5,6 +5,8 @@ import com.integra.ach.utils.EsperaImplicita;
 import com.integra.ach.utils.Robot;
 import com.integra.ach.utils.Utilidades;
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.JavascriptExecutor;
+
 import java.awt.*;
 
 public class IntegraMenuPrincipalStep {
@@ -34,8 +36,9 @@ public class IntegraMenuPrincipalStep {
         while (integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).isDisplayed()) {
             break;
         }
-
-        robot.control_Menos();
+        JavascriptExecutor jse = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
+        jse.executeScript("window.scrollBy(0,1000)");
+        //robot.control_Menos();
         EsperaImplicita.esperaImplicitaWeb(5);
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
     }
