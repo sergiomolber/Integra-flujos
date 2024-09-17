@@ -38,7 +38,7 @@ public class IntegraMenuPrincipalStep {
         }
         JavascriptExecutor jse = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
         jse.executeScript("window.scrollBy(0,1000)");
-        //robot.control_Menos();
+       robot.control_Menos();
         EsperaImplicita.esperaImplicitaWeb(5);
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
     }
