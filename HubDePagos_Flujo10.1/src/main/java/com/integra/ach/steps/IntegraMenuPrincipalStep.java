@@ -75,7 +75,7 @@ public class IntegraMenuPrincipalStep {
         while (integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).isDisplayed()) {
             break;
         }
-        robot.control_Menos();
+       // robot.control_Menos();
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
 
     }
@@ -140,10 +140,17 @@ public class IntegraMenuPrincipalStep {
     @Step
     public void clickEnCiclosDeTiempo() throws AWTException {
         EsperaImplicita.esperaImplicitaWeb(2);
-        robot.control_Menos();
-        //EsperaExplicita.esperaexplilicitaClick(integraMenuPrincipalObject.getDriver(),integraMenuPrincipalObject.getBtnCicloTiempo());
+
+
+        // Hacer scroll hasta el botón de ciclos de tiempo antes de hacer click
+        JavascriptExecutor js = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
+        js.executeScript("arguments[0].scrollIntoView(true);", integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()));
+
+        // Espera antes de hacer clic en el botón
+        EsperaExplicita.esperaexplilicitaClick(integraMenuPrincipalObject.getDriver(), integraMenuPrincipalObject.getBtnCicloTiempo());
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()).click();
-        robot.control_Mas();
+
+
         EsperaImplicita.esperaImplicitaWeb(2);
     }
 
