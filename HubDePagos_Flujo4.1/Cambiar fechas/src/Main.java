@@ -11,7 +11,7 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         // Ruta al directorio que contiene los archivos de texto
-        String directorioTxt = "D:\\Integra automatizados\\HubDePagos_Flujo4.1\\Archivo"; // Asegúrate de actualizar esta ruta
+        String directorioTxt = "D:\\Integra\\Integra-flujos\\HubDePagos_Flujo4.1\\Archivo"; // Asegúrate de actualizar esta ruta
 
         // Obtener la fecha actual en formato YYYYMMDD
         String fechaActual = LocalDate.now().format(DateTimeFormatter.BASIC_ISO_DATE);
