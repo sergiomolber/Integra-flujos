@@ -11,5 +11,5 @@ Feature: Pruebas Consulta Consumo ERP
     Examples:
       | tipoDeEntidad | usuario                                | clave            | fecha |
     ##@externaldata@./src/test/resources/Data/DataConsultaConsumoERP.xlsx@ConsultaConsumoERP
-|"EF"|"cenitoperatoraut@achcolombia.com.co"|"ColombiaAch.2023+"|"2023-11-07"|
+|"EF"|"cenitautorizaut@gmail.com"|"ColombiaAch.2023*"|"2024-09-03"|
 
