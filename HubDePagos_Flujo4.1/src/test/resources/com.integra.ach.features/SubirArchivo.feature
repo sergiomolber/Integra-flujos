@@ -9,7 +9,7 @@ Feature: Prueba de operaciones de ciclo y subir archivo
 
     Examples:
       | tipoDeEntidad | usuario                              | clave            | cicloAEditar |
-   |"EF"|"smolina@achcolombia.com.co"|"ColombiaAch.2023*"|"1"|
+   |"EF"|"useradminapp@gmail.com"|"Ach.2022*$AU"|"1"|
 
   @SubirArchivoExitosoJPmorgan
   Scenario Outline: Subir un archivo Nacham y validar si es exitoso
