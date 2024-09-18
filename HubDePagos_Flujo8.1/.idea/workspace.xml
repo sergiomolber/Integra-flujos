@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a56b23-5a9c-497a-851f-9bd634709508" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/src/test/resources/Data/Data_RolesYPermisos.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/src/test/resources/Data/Data_RolesYPermisos.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/0f1686e764e2c880f4fafb12c72a1913d279ab40a6949c3776403ca8ae06582b.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/0f1686e764e2c880f4fafb12c72a1913d279ab40a6949c3776403ca8ae06582b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/0f1686e764e2c880f4fafb12c72a1913d279ab40a6949c3776403ca8ae06582b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/0f1686e764e2c880f4fafb12c72a1913d279ab40a6949c3776403ca8ae06582b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/3eab1379600a0af9c17018d9f2094f008f47958d46f22037bb1360966e850f01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/3eab1379600a0af9c17018d9f2094f008f47958d46f22037bb1360966e850f01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/3eab1379600a0af9c17018d9f2094f008f47958d46f22037bb1360966e850f01.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/3eab1379600a0af9c17018d9f2094f008f47958d46f22037bb1360966e850f01.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/83ce0ba00edc5f1bc2d31574947b2cfb4ef62e52af2d68a4723d41e9a6c37d01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/83ce0ba00edc5f1bc2d31574947b2cfb4ef62e52af2d68a4723d41e9a6c37d01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/83ce0ba00edc5f1bc2d31574947b2cfb4ef62e52af2d68a4723d41e9a6c37d01.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/83ce0ba00edc5f1bc2d31574947b2cfb4ef62e52af2d68a4723d41e9a6c37d01.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-1c450d6e52ac0991bddee0dc9399877521d92f6de1e8d61ee95b9ef722bd6f65.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-93a2896fe03a844843d3106e43cb3098cb9ed6cb73db3524534cb8e899b1465f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/SERENITY-JUNIT-c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HubDePagos_Flujo2/target/site/serenity/c64a15d22b36be76e657c3cdae797d81d27a29a59733a8f864b70114bfe30e21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="82a56b23-5a9c-497a-851f-9bd634709508" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,18 +26,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.integra.ach.utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

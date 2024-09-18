@@ -140,9 +140,7 @@ public class IntegraMenuPrincipalStep {
     @Step
     public void clickEnCiclosDeTiempo() throws AWTException {
         EsperaImplicita.esperaImplicitaWeb(2);
-
-
-        // Hacer scroll hasta el botón de ciclos de tiempo antes de hacer click
+       // Hacer scroll hasta el botón de ciclos de tiempo antes de hacer click
         JavascriptExecutor js = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);", integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()));
 
