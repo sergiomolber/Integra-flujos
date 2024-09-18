@@ -136,6 +136,7 @@ public class IntegraMenuPrincipalStep {
     @Step
     public void clickEnCiclosDeTiempo() throws AWTException {
         robot.control_Menos();
+        EsperaImplicita.esperaImplicitaWeb(5);
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()).click();
         robot.control_Mas();
         EsperaImplicita.esperaImplicitaWeb(2);
