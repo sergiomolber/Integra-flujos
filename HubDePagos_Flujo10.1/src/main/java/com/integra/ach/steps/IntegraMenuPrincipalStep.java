@@ -1,10 +1,14 @@
 package com.integra.ach.steps;
 
 import com.integra.ach.pageObject.IntegraMenuPrincipalObject;
+import com.integra.ach.utils.EsperaExplicita;
 import com.integra.ach.utils.EsperaImplicita;
 import com.integra.ach.utils.Robot;
 import com.integra.ach.utils.Utilidades;
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+
 import java.awt.*;
 
 public class IntegraMenuPrincipalStep {
@@ -71,9 +75,9 @@ public class IntegraMenuPrincipalStep {
         while (integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).isDisplayed()) {
             break;
         }
-        EsperaImplicita.esperaImplicitaWeb(3);
         robot.control_Menos();
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
+
     }
 
     @Step
@@ -135,7 +139,9 @@ public class IntegraMenuPrincipalStep {
     }
     @Step
     public void clickEnCiclosDeTiempo() throws AWTException {
+        EsperaImplicita.esperaImplicitaWeb(2);
         robot.control_Menos();
+        //EsperaExplicita.esperaexplilicitaClick(integraMenuPrincipalObject.getDriver(),integraMenuPrincipalObject.getBtnCicloTiempo());
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()).click();
         robot.control_Mas();
         EsperaImplicita.esperaImplicitaWeb(2);

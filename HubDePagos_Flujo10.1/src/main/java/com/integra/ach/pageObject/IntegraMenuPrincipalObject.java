@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class IntegraMenuPrincipalObject extends PageObject {
     By btnModuloDeTransferencias = By.xpath("//span[contains(text(),'Módulo de Transferencias')]");
     By btnSubirArchivo = By.xpath("//span[contains(text(),'Subir Archivo')]");
-    By btnCicloTiempo = By.xpath("//li[@id='VPHCycleTime']");
+    By btnCicloTiempo = By.xpath("//span[contains(text(),'Ciclo Tiempo')]");
     By btnModuloDeCiclos = By.xpath("//span[contains(text(),'Módulo de Ciclos')]");
     By btnCierreDeCiclo = By.xpath("//span[contains(text(),'Cierre de Ciclo')]");
     By btnModuloSeguridad = By.xpath("//span[contains(text(),'Seguridad')]");
