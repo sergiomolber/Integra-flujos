@@ -52,8 +52,8 @@ public class Main {
                 lineas.set(i, linea);
             }
 
-            // Escribir el contenido actualizado de vuelta en el archivo
-            Files.write(path, lineas, charset);
+            // Escribir el contenido actualizado de vuelta en el archivo sin bloquearlo
+            Files.write(path, lineas, charset, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING);
         } catch (IOException e) {
             e.printStackTrace();
         }
