@@ -149,9 +149,7 @@ public class IntegraMenuPrincipalStep {
         // Espera antes de hacer clic en el botón
         EsperaExplicita.esperaexplilicitaClick(integraMenuPrincipalObject.getDriver(), integraMenuPrincipalObject.getBtnCicloTiempo());
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCicloTiempo()).click();
-
-
-        EsperaImplicita.esperaImplicitaWeb(2);
+       EsperaImplicita.esperaImplicitaWeb(2);
     }
 
     @Step

@@ -1,9 +1,11 @@
 package com.integra.ach.steps;
 
 import com.integra.ach.pageObject.IntegraMenuPrincipalObject;
+import com.integra.ach.utils.EsperaExplicita;
 import com.integra.ach.utils.EsperaImplicita;
 import com.integra.ach.utils.Robot;
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.JavascriptExecutor;
 
 import java.awt.*;
 
@@ -21,15 +23,20 @@ public class IntegraMenuPrincipalStep {
             break;
         }
         EsperaImplicita.esperaImplicitaWeb(3);
-        robot.control_Menos();
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
     }
 
     @Step
     public void clickSolicitudTiempoExtra() throws AWTException {
-        robot.control_Menos();
+
+// Hacer scroll hasta el botón de ciclos de tiempo antes de hacer click
+        JavascriptExecutor js = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
+        js.executeScript("arguments[0].scrollIntoView(true);", integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnSolicitudTiempoExtra()));
+
+        // Espera antes de hacer clic en el botón
+        EsperaExplicita.esperaexplilicitaClick(integraMenuPrincipalObject.getDriver(), integraMenuPrincipalObject.getBtnSolicitudTiempoExtra());
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnSolicitudTiempoExtra()).click();
-        robot.control_Mas();
         EsperaImplicita.esperaImplicitaWeb(2);
+
     }
 }
