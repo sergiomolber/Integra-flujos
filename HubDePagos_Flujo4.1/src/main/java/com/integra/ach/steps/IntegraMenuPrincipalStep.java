@@ -32,14 +32,11 @@ public class IntegraMenuPrincipalStep {
     }
     @Step
     public void clickCatalogo() throws AWTException {
-        EsperaImplicita.esperaImplicitaWeb(5);
         while (integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).isDisplayed()) {
             break;
         }
-        JavascriptExecutor jse = (JavascriptExecutor) integraMenuPrincipalObject.getDriver();
-        jse.executeScript("window.scrollBy(0,1000)");
-       robot.control_Menos();
-        EsperaImplicita.esperaImplicitaWeb(5);
+        EsperaImplicita.esperaImplicitaWeb(3);
+        robot.control_Menos();
         integraMenuPrincipalObject.getDriver().findElement(integraMenuPrincipalObject.getBtnCatalogos()).click();
     }
 
