@@ -133,7 +133,6 @@ public class IntegraCicloDeTiempoStep {
 
     @Step
     public void validarEdicionDelLimite() {
-        EsperaImplicita.esperaImplicitaWeb(6);
         EsperaExplicita.esperaExplicitaTexto(integraCicloDeTiempoObject.getDriver(), integraCicloDeTiempoObject.getTxtValidarEdicion());
         Assert.assertThat(integraCicloDeTiempoObject.getDriver().findElement(integraCicloDeTiempoObject.getTxtValidarEdicion()).isDisplayed(), Matchers.is(true));
     }
