@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.integra.ach.runners.GestionDeEntidadesRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PE-HO-ACH-018" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+4 Scenarios (?[32m4 passed?[0m)
+12 Steps (?[32m12 passed?[0m)
+7m37,169s
+
+]]></system-out>
+  <system-err><![CDATA[WARNING: Found tags option '@CPL001,@CPL002,@CPL003,@CPL004'. Support for '@tag1,@tag2' will be removed from the next release of Cucumber-JVM. Please use '@tag or @tag2' instead
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Pruebas Usuarios
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Pruebas Transporte
+WARNING: Found tags option '@CPL001,@CPL002,@CPL003,@CPL004'. Support for '@tag1,@tag2' will be removed from the next release of Cucumber-JVM. Please use '@tag or @tag2' instead
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Pruebas Usuarios
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Pruebas Transporte
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CPL001 Creación de Entidad exitosamente
+-------------------------------------------------------------------(pruebas-usuarios;cpl001-creación-de-entidad-exitosamente)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CPL002 Creación de Entidad fallida por codigo de entidad existente
+-------------------------------------------------------------------(pruebas-usuarios;cpl002-creación-de-entidad-fallida-por-codigo-de-entidad-existente)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CPL003 Edición de Entidad exitosamente
+-------------------------------------------------------------------(pruebas-usuarios;cpl003-edición-de-entidad-exitosamente)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: CPL004 Eliminacion de Entidad exitosamente
+-------------------------------------------------------------------(pruebas-usuarios;cpl004-eliminacion-de-entidad-exitosamente)
+]]></system-err>
+</testsuite>

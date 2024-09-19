@@ -17,7 +17,7 @@ Feature: Prueba de operaciones de ciclo y subir archivo
     Then Valido el cargue y el estado del archivo exitoso <usuario> <clave>
     Examples:
       | tipoDeEntidad | usuario                   | clave            | entidad                | servicio                               | formato | urlArchivo                                                                          |
-      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "POPULAR(BANPOPULAR" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo12 - copia\Archivo\0001002.002.1" |
+      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "POPULAR(BANPOPULAR" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo12.1\Archivo\0001002.002.1" |
 
   @AdjuntarDocumentoDevolucion
   Scenario Outline: Subir un archivo Nacham y validar si es exitoso
@@ -26,7 +26,7 @@ Feature: Prueba de operaciones de ciclo y subir archivo
     Then Valido el cargue y el estado del archivo exitoso <usuario> <clave>
     Examples:
       | tipoDeEntidad | usuario                   | clave            | entidad                | servicio                               | formato | urlArchivo                                                                          |
-      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "OCCIDENTE(BANOCCIDEN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo12 - copia\Archivo\0001023.004.1" |
+      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "OCCIDENTE(BANOCCIDEN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo12.1\Archivo\0001023.004.1" |
 
 
 

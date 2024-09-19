@@ -26,7 +26,7 @@ Feature: Prueba de consulta de una sancion
 
     Examples:
       | tipoDeEntidad | usuario                  | clave          | entidad            | entidad2                  | entidad3                | servicio                               | formato  | urlArchivo                                                                                           | urlArchivo2                                                                                          | urlArchivo3                                                                                          |
-      | "EF"          | "useradminapp@gmail.com" | "Ach.2022*$AU" | "CITIBANK(BANCITIBAN)" | "AV VILLAS(BANAVVILLA)" | "CITIBANK(BANCITIBAN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 10\ORIGINAL\0001009.005.1" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 9\ORIGINAL\0001052.031.1" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 7\0001009.004.1" |
+      | "EF"          | "useradminapp@gmail.com" | "Ach.2022*$AU" | "CITIBANK(BANCITIBAN)" | "AV VILLAS(BANAVVILLA)" | "CITIBANK(BANCITIBAN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo11\Archivo\SANCION 10\ORIGINAL\0001009.005.1" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 9\ORIGINAL\0001052.031.1" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 7\0001009.004.1" |
 
   @EditarUnCiclo
   Scenario Outline: Editar un ciclo de tiempo
@@ -88,7 +88,7 @@ Feature: Prueba de consulta de una sancion
     Then Valido el cargue y el estado del archivo exitoso <usuario> <clave>
     Examples:
       | tipoDeEntidad | usuario                   | clave            | entidad                | servicio                               | formato | urlArchivo                                                                          |
-      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "SUDAMERIS(BANSUDAMER)" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 9\DEVOLUCION\0001012.004.1" |
+      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "SUDAMERIS(BANSUDAMER)" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo11\Archivo\SANCION 9\DEVOLUCION\0001012.004.1" |
 
   @EditarUnCiclo3
   Scenario Outline: Editar un ciclo de tiempo
@@ -129,7 +129,7 @@ Feature: Prueba de consulta de una sancion
     Then Valido el cargue y el estado del archivo exitoso <usuario> <clave>
     Examples:
       | tipoDeEntidad | usuario                   | clave            | entidad                | servicio                               | formato | urlArchivo                                                                          |
-      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "BANCAMIA(BANBANCAMI)" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 10\DEVOLUCION\0001059.001.1" |
+      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "BANCAMIA(BANBANCAMI)" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo11\Archivo\SANCION 10\DEVOLUCION\0001059.001.1" |
 
   @EditarUnCiclo4
   Scenario Outline: Editar un ciclo de tiempo
@@ -170,7 +170,7 @@ Feature: Prueba de consulta de una sancion
     Then Valido el cargue y el estado del archivo exitoso <usuario> <clave>
     Examples:
       | tipoDeEntidad | usuario                   | clave            | entidad                | servicio                               | formato | urlArchivo                                                                          |
-      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "CITIBANK(BANCITIBAN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "C:\Users\sergiomolina\Downloads\AutomatizacionIntegraACH (2)\Automatizacion\HubDePagos_Flujo11\Archivo\SANCION 500\0001009.006.1" |
+      | "EF"          | "useradminapp@gmail.com"  | "Ach.2022*$AU"   | "CITIBANK(BANCITIBAN)" | "Compensación de Pagos Interbancarios" | "Nacham" | "D:\Integra\Integra-flujos\HubDePagos_Flujo11\Archivo\SANCION 500\0001009.006.1" |
 
   @EditarUnCiclo5
   Scenario Outline: Editar un ciclo de tiempo

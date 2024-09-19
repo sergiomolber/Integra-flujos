@@ -1,0 +1,52 @@
+package com.integra.ach.runners;
+
+import com.integra.ach.utils.BeforeSuite;
+import com.integra.ach.utils.DataToFeature;
+import cucumber.api.CucumberOptions;
+import cucumber.api.SnippetType;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.junit.runner.RunWith;
+
+import java.io.IOException;
+
+@RunWith(RunnerPersonalizado.class)
+@CucumberOptions(
+        features = "src/test/resources/com.integra.ach.features",
+        tags = {"@CrearUnContrato"},
+        glue = "com.integra.ach.stepDefinitions",
+        snippets = SnippetType.CAMELCASE
+)
+public class EjecutarCrearUnContratoRunner {
+    @BeforeSuite
+    public static void test() throws InvalidFormatException, IOException {
+        DataToFeature.overrideFeatureFiles("./src/test/resources/com.integra.ach.features");
+    }
+
+    @RunWith(RunnerPersonalizado.class)
+    @CucumberOptions(
+            features = "src/test/resources/com.integra.ach.features",
+            tags = {"@EditarUnContrato"},
+            glue = "com.integra.ach.stepDefinitions",
+            snippets = SnippetType.CAMELCASE
+    )
+    public static class EditarUnContratoRunner {
+        @BeforeSuite
+        public static void test() throws InvalidFormatException, IOException {
+            DataToFeature.overrideFeatureFiles("./src/test/resources/com.integra.ach.features");
+        }
+    }
+
+    @RunWith(RunnerPersonalizado.class)
+    @CucumberOptions(
+            features = "src/test/resources/com.integra.ach.features",
+            tags = {"@EliminarUnContrato"},
+            glue = "com.integra.ach.stepDefinitions",
+            snippets = SnippetType.CAMELCASE
+    )
+    public static class EliminarUnContratoRunner {
+        @BeforeSuite
+        public static void test() throws InvalidFormatException, IOException {
+            DataToFeature.overrideFeatureFiles("./src/test/resources/com.integra.ach.features");
+        }
+    }
+}

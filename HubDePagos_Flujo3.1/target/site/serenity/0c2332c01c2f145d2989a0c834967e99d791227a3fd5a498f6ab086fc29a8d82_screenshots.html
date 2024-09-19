@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="598317d65a2bf81b4c2b928af47223d567eaf0c3a8fb7b5a8c7c3ee2a7beae10.html">Pruebas Usuarios</a></span>
+                > <span class="truncate-60"><a
+                    href="0c2332c01c2f145d2989a0c834967e99d791227a3fd5a498f6ab086fc29a8d82.html">CPL004 Eliminacion de Entidad exitosamente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-08-2024 13:42</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pruebas Usuarios</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="cbd1f102b7dba6fcb6bf21148677217be1bc0c3b05911e02d21ff963bf4e068a.html">Pruebasusuarios
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bbd9d891e6b6a9c85150e4e2db8dce7d8626a68d127970426dd42d78e3962406.html">Cpl004
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">CPL004 Eliminacion de Entidad exitosamente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Example: null" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Given Login exitoso &quot;EF&quot; &quot;useradminapp@gmail.com&quot; &quot;Ach.2022*$AU&quot;" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Abrir web" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Seleccionar tipo entidad: EF" width="1366"/>
+                <img src="66ed82527883e336e107673831ad4dc2652dd9f42f4ba382990ef214c9d7c94b.png" title=" Seleccionar tipo entidad: EF (completed)" width="1366"/>
+                <img src="66ed82527883e336e107673831ad4dc2652dd9f42f4ba382990ef214c9d7c94b.png" title=" Click boton vamos" width="1366"/>
+                <img src="89bf1ce645acce70ed1f536995a4ed5514ea2b72555e0503bbf88f57e44e3f9f.png" title=" Click boton vamos (completed)" width="1366"/>
+                <img src="89bf1ce645acce70ed1f536995a4ed5514ea2b72555e0503bbf88f57e44e3f9f.png" title=" Escribir usuario y contrasena: useradminapp@gmail.com, Ach.2022*$AU" width="1366"/>
+                <img src="b3a132b32b5e0e526f3b7e8d9a7dd871ea1c69bf4b44307af3a67599d259b30d.png" title=" Escribir usuario y contrasena: useradminapp@gmail.com, Ach.2022*$AU (completed)" width="1366"/>
+                <img src="b3a132b32b5e0e526f3b7e8d9a7dd871ea1c69bf4b44307af3a67599d259b30d.png" title=" Click ingresar" width="1366"/>
+                <img src="661f885095d27cb905af73ee670543c295862e57e12c9693e70d2120a8567e1c.png" title=" Click ingresar (completed)" width="1366"/>
+                <img src="661f885095d27cb905af73ee670543c295862e57e12c9693e70d2120a8567e1c.png" title=" Validar inicio de sesion" width="1366"/>
+                <img src="5fa6f2ae7842a2be9bc1cb960d5aa5214c8c7e1bba09dc6ae3f9873e60215acf.png" title=" Validar inicio de sesion (completed)" width="1366"/>
+                <img src="5fa6f2ae7842a2be9bc1cb960d5aa5214c8c7e1bba09dc6ae3f9873e60215acf.png" title=" Given Login exitoso &quot;EF&quot; &quot;useradminapp@gmail.com&quot; &quot;Ach.2022*$AU&quot; (completed)" width="1366"/>
+                <img src="81e0d0215ba6b6d86c3407cfdaa96cdbf627fee7ff3be06918892d3a01e66089.png" title=" When Ingreso al modulo de creaci&oacute;n de entidades y elimino entidad &quot;Automatizaci&oacute;n2109123&quot;" width="1366"/>
+                <img src="81e0d0215ba6b6d86c3407cfdaa96cdbf627fee7ff3be06918892d3a01e66089.png" title=" Click btn vinculacion entidades" width="1366"/>
+                <img src="7378b5ab0c0a73372150487869dbd44c84b0534d12812de3125862b2d1c79df3.png" title=" Click btn vinculacion entidades (completed)" width="1366"/>
+                <img src="7378b5ab0c0a73372150487869dbd44c84b0534d12812de3125862b2d1c79df3.png" title=" Click btn entidades" width="1366"/>
+                <img src="a2f0cc148d2a793dd65538bb990447c975d3cf7fe89ce3ae1ae4e2b93674eeb9.png" title=" Click btn entidades (completed)" width="1366"/>
+                <img src="a2f0cc148d2a793dd65538bb990447c975d3cf7fe89ce3ae1ae4e2b93674eeb9.png" title=" Click boton filtro" width="1366"/>
+                <img src="229abd484426b4b216fafaa403829d9a21b96bc4c6fa42958091b19a80906abe.png" title=" Click boton filtro (completed)" width="1366"/>
+                <img src="229abd484426b4b216fafaa403829d9a21b96bc4c6fa42958091b19a80906abe.png" title=" Click selector filtro" width="1366"/>
+                <img src="5923d8785660423942c4c97b507a2e625a9370a0b45d43416484d7b6593b2a78.png" title=" Click selector filtro (completed)" width="1366"/>
+                <img src="5923d8785660423942c4c97b507a2e625a9370a0b45d43416484d7b6593b2a78.png" title=" Click entidad" width="1366"/>
+                <img src="7d55243e36feacfa43451b1ad52bb81ba311b8e4c193eea5eb15d9ad28daec6a.png" title=" Click entidad (completed)" width="1366"/>
+                <img src="7d55243e36feacfa43451b1ad52bb81ba311b8e4c193eea5eb15d9ad28daec6a.png" title=" Ingreso editar entidad: Automatizaci&oacute;n2109123" width="1366"/>
+                <img src="e330f6c73968078261886013cab8e73ad01d3a8ed620544c82002880c61aa6ca.png" title=" Ingreso editar entidad: Automatizaci&oacute;n2109123 (completed)" width="1366"/>
+                <img src="e330f6c73968078261886013cab8e73ad01d3a8ed620544c82002880c61aa6ca.png" title=" Click btn eliminar entidad" width="1366"/>
+                <img src="8c2f511e55fd95bbcb597503009502676a33abe12141122b3bdb7c3224edb3b4.png" title=" Click btn eliminar entidad (completed)" width="1366"/>
+                <img src="8c2f511e55fd95bbcb597503009502676a33abe12141122b3bdb7c3224edb3b4.png" title=" Click btn confirmar eliminar entidad" width="1366"/>
+                <img src="75dc70e5bbc0542ad951bb8f3be67ae67a7be8037a2b3f2f76e931afc8baaf0f.png" title=" Click btn confirmar eliminar entidad (completed)" width="1366"/>
+                <img src="75dc70e5bbc0542ad951bb8f3be67ae67a7be8037a2b3f2f76e931afc8baaf0f.png" title=" When Ingreso al modulo de creaci&oacute;n de entidades y elimino entidad &quot;Automatizaci&oacute;n2109123&quot; (completed)" width="1366"/>
+                <img src="75dc70e5bbc0542ad951bb8f3be67ae67a7be8037a2b3f2f76e931afc8baaf0f.png" title=" Then Valido eliminaci&oacute;n de entidad exitosa" width="1366"/>
+                <img src="75dc70e5bbc0542ad951bb8f3be67ae67a7be8037a2b3f2f76e931afc8baaf0f.png" title=" Validolbl eliminaci&oacute;n exitosa" width="1366"/>
+                <img src="c500d6b86dee056bf4f22043c3c4f2aaab847d1694aea3daf3db825a931ca651.png" title=" Validolbl eliminaci&oacute;n exitosa (completed)" width="1366"/>
+                <img src="c500d6b86dee056bf4f22043c3c4f2aaab847d1694aea3daf3db825a931ca651.png" title=" Then Valido eliminaci&oacute;n de entidad exitosa (completed)" width="1366"/>
+                <img src="13e51cb8d4c5db245fd0904afd2f0dcbd915ca7f63197f80a89e96dc5b9ece52.png" title=" Example: null (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

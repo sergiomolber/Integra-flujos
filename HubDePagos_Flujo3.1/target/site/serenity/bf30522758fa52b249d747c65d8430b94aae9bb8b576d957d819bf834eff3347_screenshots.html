@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="598317d65a2bf81b4c2b928af47223d567eaf0c3a8fb7b5a8c7c3ee2a7beae10.html">Pruebas Usuarios</a></span>
+                > <span class="truncate-60"><a
+                    href="bf30522758fa52b249d747c65d8430b94aae9bb8b576d957d819bf834eff3347.html">CPL002 Creaci&oacute;n de Entidad fallida por codigo de entidad existente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-08-2024 13:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pruebas Usuarios</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="cbd1f102b7dba6fcb6bf21148677217be1bc0c3b05911e02d21ff963bf4e068a.html">Pruebasusuarios
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="fecadd7c27c22221cc8a6d855372f81301d63a3ff09b8d086f5a2fa049e1e7ab.html">Cpl002
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">CPL002 Creaci&oacute;n de Entidad fallida por codigo de entidad existente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Example: null" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Given Login exitoso &quot;EF&quot; &quot;useradminapp@gmail.com&quot; &quot;Ach.2022*$AU&quot;" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Abrir web" width="1366"/>
+                <img src="6072cad343f72e19b3843069e01e5d4edce11cf29517f62602218bcff3cad9ae.png" title=" Seleccionar tipo entidad: EF" width="1366"/>
+                <img src="66ed82527883e336e107673831ad4dc2652dd9f42f4ba382990ef214c9d7c94b.png" title=" Seleccionar tipo entidad: EF (completed)" width="1366"/>
+                <img src="66ed82527883e336e107673831ad4dc2652dd9f42f4ba382990ef214c9d7c94b.png" title=" Click boton vamos" width="1366"/>
+                <img src="ecfa44fc879d8a4cc06ee7c8201142db4cba07444cf4740a9ae30e0966e716e6.png" title=" Click boton vamos (completed)" width="1366"/>
+                <img src="ecfa44fc879d8a4cc06ee7c8201142db4cba07444cf4740a9ae30e0966e716e6.png" title=" Escribir usuario y contrasena: useradminapp@gmail.com, Ach.2022*$AU" width="1366"/>
+                <img src="b3a132b32b5e0e526f3b7e8d9a7dd871ea1c69bf4b44307af3a67599d259b30d.png" title=" Escribir usuario y contrasena: useradminapp@gmail.com, Ach.2022*$AU (completed)" width="1366"/>
+                <img src="b3a132b32b5e0e526f3b7e8d9a7dd871ea1c69bf4b44307af3a67599d259b30d.png" title=" Click ingresar" width="1366"/>
+                <img src="661f885095d27cb905af73ee670543c295862e57e12c9693e70d2120a8567e1c.png" title=" Click ingresar (completed)" width="1366"/>
+                <img src="661f885095d27cb905af73ee670543c295862e57e12c9693e70d2120a8567e1c.png" title=" Validar inicio de sesion" width="1366"/>
+                <img src="e4089d045033af68bd5e5cef6b3e17ba2a3515a868c848d41693fd043aec5298.png" title=" Validar inicio de sesion (completed)" width="1366"/>
+                <img src="e4089d045033af68bd5e5cef6b3e17ba2a3515a868c848d41693fd043aec5298.png" title=" Given Login exitoso &quot;EF&quot; &quot;useradminapp@gmail.com&quot; &quot;Ach.2022*$AU&quot; (completed)" width="1366"/>
+                <img src="1cd369fefe1804a4d3346bce12e82a4de3355c35e5b424e10fc5831030334725.png" title=" When Ingreso al modulo de creaci&oacute;n de entidades y creo entidad &quot;122015&quot; &quot;Automatizaci&oacute;n201&quot; &quot;Automatizaci&oacute;n201&quot; &quot;Automatizaci&oacute;n201&quot; &quot;No&quot; &quot;PruebasAutomatizaci&oacute;n1&quot; &quot;15555552&quot; &quot;Calendario Colombiano&quot; &quot;258&quot; &quot;Bogota&quot; &quot;COLOMBIA&quot; &quot;pruebasautomatizacion@pruebasautomatizacion.com&quot; &quot;3162320589&quot; &quot;123456789&quot; &quot;12345678&quot; &quot;50&quot; &quot;pruebasautomatizaci&oacute;n.com&quot; &quot;15555552&quot; &quot;312569885&quot; &quot;258&quot; &quot;321245687&quot; &quot;No&quot; &quot;123456&quot; &quot;1234567&quot; &quot;ACTIVE&quot;  &quot;20241107&quot;" width="1366"/>
+                <img src="d920653a72f91ed0aa480cb893fe4756cb78c8dad785b507fc85824bb3c13932.png" title=" Click btn vinculacion entidades" width="1366"/>
+                <img src="facb6fbba8bf0e8217ec6297525e32cf97ed126561a736557106f29276270038.png" title=" Click btn vinculacion entidades (completed)" width="1366"/>
+                <img src="facb6fbba8bf0e8217ec6297525e32cf97ed126561a736557106f29276270038.png" title=" Click btn entidades" width="1366"/>
+                <img src="93b7ab53ae399503b4d776707ba90c59ce358456fd0df8e76929c85e23150d4a.png" title=" Click btn entidades (completed)" width="1366"/>
+                <img src="93b7ab53ae399503b4d776707ba90c59ce358456fd0df8e76929c85e23150d4a.png" title=" Seleccionar btn crear entidad" width="1366"/>
+                <img src="47ee207ceb805e194e73fe530061321eedc8fbe5847c72e5fbb51a32930b7e49.png" title=" Seleccionar btn crear entidad (completed)" width="1366"/>
+                <img src="47ee207ceb805e194e73fe530061321eedc8fbe5847c72e5fbb51a32930b7e49.png" title=" Ingreso codigo entidad: 122015" width="1366"/>
+                <img src="64058b9cef2b6883fdedf157a52e19cf33f104579afaf277fee2ac8100eb7379.png" title=" Ingreso codigo entidad: 122015 (completed)" width="1366"/>
+                <img src="64058b9cef2b6883fdedf157a52e19cf33f104579afaf277fee2ac8100eb7379.png" title=" Ingreso entidad: Automatizaci&oacute;n201" width="1366"/>
+                <img src="85d3f0a9531e7118b9b85f41067e090151f7a2501bef38f3c6ab3412cd0d2854.png" title=" Ingreso entidad: Automatizaci&oacute;n201 (completed)" width="1366"/>
+                <img src="85d3f0a9531e7118b9b85f41067e090151f7a2501bef38f3c6ab3412cd0d2854.png" title=" Ingreso nombre entidad: Automatizaci&oacute;n201" width="1366"/>
+                <img src="34d95b8ee93945e80f144df20ce8bfa6c383db4b0ad4a157e70786bead8abe5e.png" title=" Ingreso nombre entidad: Automatizaci&oacute;n201 (completed)" width="1366"/>
+                <img src="34d95b8ee93945e80f144df20ce8bfa6c383db4b0ad4a157e70786bead8abe5e.png" title=" Clic selector tipo entidad" width="1366"/>
+                <img src="d2b223458641d76d9c3cb3d981177e4f6ed4c3ebfbf8c1ec25a4882847d51da9.png" title=" Clic selector tipo entidad (completed)" width="1366"/>
+                <img src="d2b223458641d76d9c3cb3d981177e4f6ed4c3ebfbf8c1ec25a4882847d51da9.png" title=" Clic selector codigo calendario: Calendario Colombiano" width="1366"/>
+                <img src="2a8cc31f9876efe600d4cf9d09e8102c2f6381079cb9309e71cedf126718bcc7.png" title=" Clic selector codigo calendario: Calendario Colombiano (completed)" width="1366"/>
+                <img src="2a8cc31f9876efe600d4cf9d09e8102c2f6381079cb9309e71cedf126718bcc7.png" title=" Ingreso indentificador externo de entidad: PruebasAutomatizaci&oacute;n1" width="1366"/>
+                <img src="fdfc56d5ee996de71d127572d5202275e7914c0072dbe16d9f7a21e5cdd6ffd7.png" title=" Ingreso indentificador externo de entidad: PruebasAutomatizaci&oacute;n1 (completed)" width="1366"/>
+                <img src="fdfc56d5ee996de71d127572d5202275e7914c0072dbe16d9f7a21e5cdd6ffd7.png" title=" Ingreso numero cuenta: 15555552" width="1366"/>
+                <img src="bc61d5054cdb85966c75d79db0f708281c628249d8111d819d151fac8a738aa5.png" title=" Ingreso numero cuenta: 15555552 (completed)" width="1366"/>
+                <img src="bc61d5054cdb85966c75d79db0f708281c628249d8111d819d151fac8a738aa5.png" title=" Ingreso direccion: 258" width="1366"/>
+                <img src="959f8abe2a5898edc4b9ec1a35e3dd81e82effb8612988b47af40497f4ac82c7.png" title=" Ingreso direccion: 258 (completed)" width="1366"/>
+                <img src="959f8abe2a5898edc4b9ec1a35e3dd81e82effb8612988b47af40497f4ac82c7.png" title=" Ingreso ciudad: Bogota" width="1366"/>
+                <img src="4639f94a1d1d45671c00bbed6481cb04879cff3926a5c0f39d00b637c4c567eb.png" title=" Ingreso ciudad: Bogota (completed)" width="1366"/>
+                <img src="4639f94a1d1d45671c00bbed6481cb04879cff3926a5c0f39d00b637c4c567eb.png" title=" Clic selector pais" width="1366"/>
+                <img src="f54fae9e69c40f90dda80ecebc72f0b6deb51fa8c7c89dccfef14cb11165d034.png" title=" Clic selector pais (completed)" width="1366"/>
+                <img src="f54fae9e69c40f90dda80ecebc72f0b6deb51fa8c7c89dccfef14cb11165d034.png" title=" Ingreso correo: pruebasautomatizacion@pruebasautomatizacion.com" width="1366"/>
+                <img src="868ad49a9f61883cf6be15473134d112b8602f95753bd9b3c4df5dc1270544fe.png" title=" Ingreso correo: pruebasautomatizacion@pruebasautomatizacion.com (completed)" width="1366"/>
+                <img src="868ad49a9f61883cf6be15473134d112b8602f95753bd9b3c4df5dc1270544fe.png" title=" Ingreso telefono: 3162320589" width="1366"/>
+                <img src="6f3f132d1bbd66a24dcf22eaa0fc0ddc8b10ed2842166a30bd66d25b4225c900.png" title=" Ingreso telefono: 3162320589 (completed)" width="1366"/>
+                <img src="6f3f132d1bbd66a24dcf22eaa0fc0ddc8b10ed2842166a30bd66d25b4225c900.png" title=" Ingreso NIT: 123456789" width="1366"/>
+                <img src="4696600a8efc7741b27844a72e52bfee9c7598b9803d4cfd703383beab458143.png" title=" Ingreso NIT: 123456789 (completed)" width="1366"/>
+                <img src="4696600a8efc7741b27844a72e52bfee9c7598b9803d4cfd703383beab458143.png" title=" Ingreso ultimo valor PSE: 12345678" width="1366"/>
+                <img src="33e0bcdac0f1aa5dd25d2df463c4d6263b202d70b2821f453f57860e1b25c1a0.png" title=" Ingreso ultimo valor PSE: 12345678 (completed)" width="1366"/>
+                <img src="33e0bcdac0f1aa5dd25d2df463c4d6263b202d70b2821f453f57860e1b25c1a0.png" title=" Ingreso digito chequeo: 50" width="1366"/>
+                <img src="ad1b452c3cbd19df1ca2bcde231b059a135c9da0089ff77f0772495630f18f47.png" title=" Ingreso digito chequeo: 50 (completed)" width="1366"/>
+                <img src="ad1b452c3cbd19df1ca2bcde231b059a135c9da0089ff77f0772495630f18f47.png" title=" Ingreso dominio correo: pruebasautomatizaci&oacute;n.com" width="1366"/>
+                <img src="a7f7d0be633cd226f28829b778be3eccb2bb70838b00e80331dbccc60f074304.png" title=" Ingreso dominio correo: pruebasautomatizaci&oacute;n.com (completed)" width="1366"/>
+                <img src="a7f7d0be633cd226f28829b778be3eccb2bb70838b00e80331dbccc60f074304.png" title=" Ingreso sufijo usuario: 15555552" width="1366"/>
+                <img src="99610f742ebfebbfefc43c5ade419c0b9907c77e34086b3d75ae1f29a4ac533e.png" title=" Ingreso sufijo usuario: 15555552 (completed)" width="1366"/>
+                <img src="99610f742ebfebbfefc43c5ade419c0b9907c77e34086b3d75ae1f29a4ac533e.png" title=" Clic Selector2FA autenticacion" width="1366"/>
+                <img src="87d9929eeaa70637c5a654bbf5286952840838f7cb054650aed0324529ae7d94.png" title=" Clic Selector2FA autenticacion (completed)" width="1366"/>
+                <img src="87d9929eeaa70637c5a654bbf5286952840838f7cb054650aed0324529ae7d94.png" title=" Clic selector tipo institucion" width="1366"/>
+                <img src="1b85bd53a77ffe2a5d9126a02e403c680dbe442ed57f806e574c40afbdbe5753.png" title=" Clic selector tipo institucion (completed)" width="1366"/>
+                <img src="1b85bd53a77ffe2a5d9126a02e403c680dbe442ed57f806e574c40afbdbe5753.png" title=" Ingreso nit cuenta XML: 123456" width="1366"/>
+                <img src="1a5e3a634c441235f55904b2f58805b393a1a1ba1ea18f9320ebc54062725269.png" title=" Ingreso nit cuenta XML: 123456 (completed)" width="1366"/>
+                <img src="1a5e3a634c441235f55904b2f58805b393a1a1ba1ea18f9320ebc54062725269.png" title=" Ingreso portafolio: 1234567" width="1366"/>
+                <img src="4475d3068fe42639846729be1d4f970881a608693e4bff1eb2eadbe623507374.png" title=" Ingreso portafolio: 1234567 (completed)" width="1366"/>
+                <img src="4475d3068fe42639846729be1d4f970881a608693e4bff1eb2eadbe623507374.png" title=" Clic select estado: ACTIVE" width="1366"/>
+                <img src="2ccd352c043f98b607c83eb12e46aa6a188d066725f1e599ed78957c4ee84462.png" title=" Clic select estado: ACTIVE (completed)" width="1366"/>
+                <img src="2ccd352c043f98b607c83eb12e46aa6a188d066725f1e599ed78957c4ee84462.png" title=" Ingreso fecha desde" width="1366"/>
+                <img src="29ea45e9395e1692d176d082948f8927b409d59e12750e8ec9ea74ed9dec730b.png" title=" Ingreso fecha desde (completed)" width="1366"/>
+                <img src="29ea45e9395e1692d176d082948f8927b409d59e12750e8ec9ea74ed9dec730b.png" title=" Ingreso fecha hasta: 20241107" width="1366"/>
+                <img src="788815dbaffc764c4bd3873d6d3a6044d5fdc31a62e2d5c037416d68a15f8ccd.png" title=" Ingreso fecha hasta: 20241107 (completed)" width="1366"/>
+                <img src="788815dbaffc764c4bd3873d6d3a6044d5fdc31a62e2d5c037416d68a15f8ccd.png" title=" Clic boton crear" width="1366"/>
+                <img src="d4957e7ede3f0de5ac87a8b7f7716b0621b1d27e58a6561ec85fb29194e6f47d.png" title=" Clic boton crear (completed)" width="1366"/>
+                <img src="d4957e7ede3f0de5ac87a8b7f7716b0621b1d27e58a6561ec85fb29194e6f47d.png" title=" When Ingreso al modulo de creaci&oacute;n de entidades y creo entidad &quot;122015&quot; &quot;Automatizaci&oacute;n201&quot; &quot;Automatizaci&oacute;n201&quot; &quot;Automatizaci&oacute;n201&quot; &quot;No&quot; &quot;PruebasAutomatizaci&oacute;n1&quot; &quot;15555552&quot; &quot;Calendario Colombiano&quot; &quot;258&quot; &quot;Bogota&quot; &quot;COLOMBIA&quot; &quot;pruebasautomatizacion@pruebasautomatizacion.com&quot; &quot;3162320589&quot; &quot;123456789&quot; &quot;12345678&quot; &quot;50&quot; &quot;pruebasautomatizaci&oacute;n.com&quot; &quot;15555552&quot; &quot;312569885&quot; &quot;258&quot; &quot;321245687&quot; &quot;No&quot; &quot;123456&quot; &quot;1234567&quot; &quot;ACTIVE&quot;  &quot;20241107&quot; (completed)" width="1366"/>
+                <img src="d4957e7ede3f0de5ac87a8b7f7716b0621b1d27e58a6561ec85fb29194e6f47d.png" title=" Then Valido creaci&oacute;n con codigo de entidad existente" width="1366"/>
+                <img src="d4957e7ede3f0de5ac87a8b7f7716b0621b1d27e58a6561ec85fb29194e6f47d.png" title=" Validolbl codigo ya creado" width="1366"/>
+                <img src="5baf8fbdbe2cfb96cde73464ec753106afd49dac7c390f777e72ccd992c66dc3.png" title=" Validolbl codigo ya creado (completed)" width="1366"/>
+                <img src="5baf8fbdbe2cfb96cde73464ec753106afd49dac7c390f777e72ccd992c66dc3.png" title=" Then Valido creaci&oacute;n con codigo de entidad existente (completed)" width="1366"/>
+                <img src="5baf8fbdbe2cfb96cde73464ec753106afd49dac7c390f777e72ccd992c66dc3.png" title=" Example: null (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
